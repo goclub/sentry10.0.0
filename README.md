@@ -1,23 +1,28 @@
-# Sentry 10 On-Premise [![Build Status][build-status-image]][build-status-url]
+# sentry 1.10.0 docker 独立部署
 
-## 要求
+## 软件要求
 
 Docker 版本要求 17.05.0+
 
 Compose 版本要求 1.23.0+
-## 最低硬件要求
 
-你至少需要 2400MB 内存
+## 硬件要求
+
+你至少需要 4GB 内存
 
 ## 安装 
 
 bash ./install.sh
 
-## 地址
+## 访问
 
-你的IP:9000 
+http://localhost::9000 
 
-确保服务器的安全策略9000端口允许访问
+如果无法访问需要确保服务器的9000端口没有被防火墙阻止访问.
+
+---
+
+# Sentry 10 On-Premise [![Build Status][build-status-image]][build-status-url]
 
 Official bootstrap for running your own [Sentry](https://sentry.io/) with [Docker](https://www.docker.com/).
 
@@ -28,7 +33,7 @@ Official bootstrap for running your own [Sentry](https://sentry.io/) with [Docke
 
 ## Minimum Hardware Requirements:
 
- * You need at least 2400MB RAM
+ * You need at least $GB RAM
 
 ## Setup
 
