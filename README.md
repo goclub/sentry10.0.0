@@ -13,6 +13,11 @@ Compose 版本要求 1.23.0+
 
 bash ./install.sh
 
+## 地址
+
+你的IP:9000 
+
+确保服务器的安全策略9000端口允许访问
 
 Official bootstrap for running your own [Sentry](https://sentry.io/) with [Docker](https://www.docker.com/).
 
