@@ -3,8 +3,16 @@
 ## 软件要求
 
 Docker 版本要求 17.05.0+
-
+```
+sudo yum install -y docker-ce docker-ce-cli containerd.io
+sudo systemctl start docker
+sudo systemctl enable docker
+```
 Compose 版本要求 1.23.0+
+```
+sudo curl -L "https://gh-proxy.com/https://github.com/docker/compose/releases/download/1.23.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+```
 
 ## 硬件要求
 
