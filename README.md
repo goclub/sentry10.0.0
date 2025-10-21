@@ -22,7 +22,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ## 安装 
 
-bash ./install.sh
+SENTRY_IMAGE=getsentry/sentry:10 ./install.sh
 
 ## 访问
 
